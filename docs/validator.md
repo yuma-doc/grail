@@ -63,8 +63,7 @@ cp .env.example .env
 # Edit .env with your wallet names, network, and R2 credentials
 
 # Run validator (Typer CLI)
-grail -vv validate --test-mode      # validate own files only
-# grail -vv validate --no-test-mode # validate all miners on the subnet
+grail -vv validate      # validate all miners on the subnet
 ```
 
 ---
